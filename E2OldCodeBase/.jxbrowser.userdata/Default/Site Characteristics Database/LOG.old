@@ -1,0 +1,5 @@
+2024/04/19-12:09:04.925 10e8 Log #3: 2 ops saved to Table #4 OK
+2024/04/19-12:09:04.959 10e8 Archiving U:\CprE288-Project\E2OldCodeBase\.jxbrowser.userdata\Default\Site Characteristics Database/000003.log: OK
+2024/04/19-12:09:04.959 10e8 Table #4: 2 entries OK
+2024/04/19-12:09:05.000 10e8 Archiving U:\CprE288-Project\E2OldCodeBase\.jxbrowser.userdata\Default\Site Characteristics Database/MANIFEST-000001: OK
+2024/04/19-12:09:05.091 10e8 **** Repaired leveldb U:\CprE288-Project\E2OldCodeBase\.jxbrowser.userdata\Default\Site Characteristics Database; recovered 1 files; 191 bytes. Some data may have been lost. ****

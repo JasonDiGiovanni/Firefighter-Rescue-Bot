@@ -1,0 +1,13 @@
+/*
+ * adc.h
+ */
+
+#include <libcybotUART.lib>
+#include <stdint.h>
+#include <stdlib.h>
+#include <adc.c>
+
+void adc_init (void);
+uint16_t adc_read (void);
+
+#endif /* ADC_H_ */

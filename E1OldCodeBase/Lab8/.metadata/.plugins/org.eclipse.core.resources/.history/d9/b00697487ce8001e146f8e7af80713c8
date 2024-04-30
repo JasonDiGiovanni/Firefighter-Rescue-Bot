@@ -1,0 +1,55 @@
+/**
+ * main.c
+ */
+
+#include <adc.h>
+#include <Timer.h>
+#include <uart-interrupt.h>
+#include <cyBot_Scan.h>
+#include <lcd.h>
+
+int main(void)
+{
+    atimer_init(); // Must be called before lcd_init(), which uses timer functions
+    lcd_init();
+    lcd_clear();
+    oi_t *sensor_data = oi_alloc();
+    oi_init(sensor_data);
+    uart_interrupt_init();
+    adc_init();
+
+    int i, j;
+        int val = 15;
+        uint16_t sum = 0;
+        cyBOT_Scan_t scan;
+        uint16_t adcValue;
+        double adcDistValue;
+        char ADC[50];
+        char write[50];
+        char c;
+        while (1) {
+            c = uart_receive();
+            if (c == 'f'){
+
+            for (i = 0; i < val; i++) {
+                cyBOT_Scan(90, &scan);
+                adcValue = adc_read();
+                sum += adcValue;
+                timer_waitMillis(100);
+            }
+            uint16_t n = sum / val; //avg
+            double inverse = 1.0 / n;
+            sum = 0;
+
+                    adcDistValue = 110722*(inverse) - 51.26;
+                    sprintf(ADC, "%d", n);
+                    uart_sendStr(ADC);
+                    uart_sendChar('\r\n');
+                    double formatted = adcDistValue;
+                    sprintf(write, "%.2f", formatted);
+                    uart_sendStr(write);
+                    uart_sendChar('\r\n');
+        }
+        }
+        oi_free(sensor_data);
+}

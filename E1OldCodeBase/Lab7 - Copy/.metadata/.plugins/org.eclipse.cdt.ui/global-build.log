@@ -1,0 +1,1793 @@
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../Timer.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Timer.d_raw"  "../Timer.c"
+Finished building: "../Timer.c"
+ 
+Building file: "../button.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="button.d_raw"  "../button.c"
+Finished building: "../button.c"
+ 
+Building file: "../lcd.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lcd.d_raw"  "../lcd.c"
+Finished building: "../lcd.c"
+ 
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+"../Map.c", line 24: warning #225-D: function "cyBot_getByte" declared implicitly
+Finished building: "../Map.c"
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building file: "../movement.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="movement.d_raw"  "../movement.c"
+Finished building: "../movement.c"
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+"../uart-interrupt.c", line 19: warning #69-D: integer conversion resulted in a change of sign
+Finished building: "../uart-interrupt.c"
+ 
+Building file: "../open_interface.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="open_interface.d_raw"  "../open_interface.c"
+"../open_interface.c", line 356: warning #179-D: variable "charging_state" was declared but never referenced
+Finished building: "../open_interface.c"
+ 
+Building file: "../uart.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart.d_raw"  "../uart.c"
+Finished building: "../uart.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Map.obj" "./Timer.obj" "./button.obj" "./lcd.obj" "./main.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Map.obj' failed
+"../Map.c", line 26: warning #225-D: function "cyBot_getByte" declared implicitly
+"../Map.c", line 37: error #66: expected a ";"
+"../Map.c", line 22: warning #552-D: variable "IRdistAvg" was set but never used
+1 error detected in the compilation of "../Map.c".
+gmake: *** [Map.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+"../Map.c", line 26: warning #225-D: function "cyBot_getByte" declared implicitly
+"../Map.c", line 22: warning #552-D: variable "IRdistAvg" was set but never used
+Finished building: "../Map.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Map.obj" "./Timer.obj" "./button.obj" "./lcd.obj" "./main.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Map.obj' failed
+"../Map.c", line 26: warning #225-D: function "cyBot_getByte" declared implicitly
+"../Map.c", line 28: error #20: identifier "dist" is undefined
+"../Map.c", line 22: warning #552-D: variable "IRdistAvg" was set but never used
+1 error detected in the compilation of "../Map.c".
+gmake: *** [Map.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Map.obj' failed
+"../Map.c", line 26: warning #225-D: function "cyBot_getByte" declared implicitly
+"../Map.c", line 28: error #20: identifier "dist" is undefined
+"../Map.c", line 22: warning #552-D: variable "IRdistAvg" was set but never used
+1 error detected in the compilation of "../Map.c".
+gmake: *** [Map.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+"../Map.c", line 26: warning #225-D: function "cyBot_getByte" declared implicitly
+"../Map.c", line 22: warning #552-D: variable "IRdistAvg" was set but never used
+Finished building: "../Map.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Map.obj" "./Timer.obj" "./button.obj" "./lcd.obj" "./main.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Map.obj' failed
+"../Map.c", line 27: warning #225-D: function "cyBot_getByte" declared implicitly
+"../Map.c", line 42: error #31: expression must have integral type
+"../Map.c", line 44: warning #183-D: argument is incompatible with corresponding format string conversion
+1 error detected in the compilation of "../Map.c".
+gmake: *** [Map.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+"../Map.c", line 27: warning #225-D: function "cyBot_getByte" declared implicitly
+"../Map.c", line 44: warning #183-D: argument is incompatible with corresponding format string conversion
+Finished building: "../Map.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Map.obj" "./Timer.obj" "./button.obj" "./lcd.obj" "./main.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 26: warning #121-D: return value type does not match the function type
+Finished building: "../main.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Map.obj" "./Timer.obj" "./button.obj" "./lcd.obj" "./main.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Map.obj" "./Timer.obj" "./button.obj" "./lcd.obj" "./main.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 19: warning #225-D: function "lcdputs" declared implicitly
+Finished building: "../main.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Map.obj" "./Timer.obj" "./button.obj" "./lcd.obj" "./main.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+ 
+ undefined first referenced
+  symbol       in file     
+ --------- ----------------
+ lcdputs   ./main.obj      
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab7.out" not built
+ 
+>> Compilation failure
+makefile:147: recipe for target 'Lab7.out' failed
+makefile:143: recipe for target 'all' failed
+gmake[1]: *** [Lab7.out] Error 1
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Map.obj" "./Timer.obj" "./button.obj" "./lcd.obj" "./main.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+ 
+ undefined first referenced
+  symbol       in file     
+ --------- ----------------
+ 
+ lcdputs   ./main.obj      
+>> Compilation failure
+makefile:147: recipe for target 'Lab7.out' failed
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab7.out" not built
+gmake[1]: *** [Lab7.out] Error 1
+gmake: *** [all] Error 2
+makefile:143: recipe for target 'all' failed
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 19: error #167: too few arguments in function call
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Map.obj" "./Timer.obj" "./button.obj" "./lcd.obj" "./main.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+"../Map.c", line 27: warning #225-D: function "cyBot_getByte" declared implicitly
+"../Map.c", line 45: warning #183-D: argument is incompatible with corresponding format string conversion
+Finished building: "../Map.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Map.obj" "./Timer.obj" "./button.obj" "./lcd.obj" "./main.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+"../Map.c", line 27: warning #225-D: function "cyBot_getByte" declared implicitly
+"../Map.c", line 45: warning #183-D: argument is incompatible with corresponding format string conversion
+Finished building: "../Map.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Map.obj" "./Timer.obj" "./button.obj" "./lcd.obj" "./main.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+"../Map.c", line 27: warning #225-D: function "cyBot_getByte" declared implicitly
+"../Map.c", line 45: warning #183-D: argument is incompatible with corresponding format string conversion
+Finished building: "../Map.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Map.obj" "./Timer.obj" "./button.obj" "./lcd.obj" "./main.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+"../Map.c", line 27: warning #225-D: function "cyBot_getByte" declared implicitly
+"../Map.c", line 48: warning #183-D: argument is incompatible with corresponding format string conversion
+Finished building: "../Map.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Map.obj" "./Timer.obj" "./button.obj" "./lcd.obj" "./main.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+"../Map.c", line 27: warning #225-D: function "cyBot_getByte" declared implicitly
+"../Map.c", line 48: warning #183-D: argument is incompatible with corresponding format string conversion
+Finished building: "../Map.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Map.obj" "./Timer.obj" "./button.obj" "./lcd.obj" "./main.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 28: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+Building file: "../main2.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main2.d_raw"  "../main2.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main2.obj' failed
+"../main2.c", line 7: fatal error #1965: cannot open source file "uart_extra_help.h"
+1 catastrophic error detected in the compilation of "../main2.c".
+Compilation terminated.
+gmake: *** [main2.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 28: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+Building file: "../main2.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main2.d_raw"  "../main2.c"
+"../main2.c", line 23: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 48: warning #2170-D: use of a const variable in a constant expression is nonstandard in C
+"../main2.c", line 156: warning #225-D: function "turn_clockwise" declared implicitly
+"../main2.c", line 160: warning #225-D: function "turn_counterclockwise" declared implicitly
+"../main2.c", line 180: warning #225-D: function "turn_clockwise" declared implicitly
+"../main2.c", line 185: warning #225-D: function "turn_counterclockwise" declared implicitly
+"../main2.c", line 189: warning #225-D: function "move_until_bump" declared implicitly
+"../main2.c", line 196: warning #225-D: function "turn_clockwise" declared implicitly
+"../main2.c", line 198: warning #225-D: function "turn_counterclockwise" declared implicitly
+"../main2.c", line 204: warning #225-D: function "turn_counterclockwise" declared implicitly
+"../main2.c", line 206: warning #225-D: function "turn_clockwise" declared implicitly
+"../main2.c", line 226: warning #225-D: function "uart_init" declared implicitly
+"../main2.c", line 230: warning #225-D: function "uart_interrupt_init" declared implicitly
+"../main2.c", line 251: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 253: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 296: warning #225-D: function "hasBumpedLeft" declared implicitly
+"../main2.c", line 299: warning #225-D: function "hasBumpedRight" declared implicitly
+Finished building: "../main2.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Map.obj" "./Timer.obj" "./button.obj" "./lcd.obj" "./main.obj" "./main2.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+ 
+ undefined             first referenced
+  symbol                   in file     
+ ---------             ----------------
+ hasBumpedLeft         ./main2.obj     
+ hasBumpedRight        ./main2.obj     
+ move_until_bump       ./main2.obj     
+ turn_clockwise        ./main2.obj     
+ turn_counterclockwise ./main2.obj     
+ uart_init             ./main2.obj     
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab7.out" not built
+ 
+>> Compilation failure
+makefile:148: recipe for target 'Lab7.out' failed
+gmake[1]: *** [Lab7.out] Error 1
+makefile:144: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Map.obj" "./Timer.obj" "./button.obj" "./lcd.obj" "./main.obj" "./main2.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+ 
+ undefined             first referenced
+  symbol                   in file     
+ ---------             ----------------
+ hasBumpedLeft         ./main2.obj     
+ hasBumpedRight        ./main2.obj     
+ move_until_bump       ./main2.obj     
+ turn_clockwise        ./main2.obj     
+ turn_counterclockwise ./main2.obj     
+ uart_init             ./main2.obj     
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab7.out" not built
+ 
+>> Compilation failure
+makefile:148: recipe for target 'Lab7.out' failed
+gmake[1]: *** [Lab7.out] Error 1
+makefile:144: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Map.obj' failed
+"..\movement.h", line 5: fatal error #1965: cannot open source file "uart_extra_help.h"
+1 catastrophic error detected in the compilation of "../Map.c".
+Compilation terminated.
+gmake: *** [Map.obj] Error 1
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"..\movement.h", line 5: fatal error #1965: cannot open source file "uart_extra_help.h"
+1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+Building file: "../main2.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main2.d_raw"  "../main2.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main2.obj' failed
+"..\movement.h", line 5: fatal error #1965: cannot open source file "uart_extra_help.h"
+1 catastrophic error detected in the compilation of "../main2.c".
+Compilation terminated.
+gmake: *** [main2.obj] Error 1
+Building file: "../movement.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="movement.d_raw"  "../movement.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'movement.obj' failed
+"..\movement.h", line 5: fatal error #1965: cannot open source file "uart_extra_help.h"
+1 catastrophic error detected in the compilation of "../movement.c".
+Compilation terminated.
+gmake: *** [movement.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Map.obj' failed
+"..\movement.h", line 14: error #20: identifier "flag" is undefined
+"..\movement.h", line 17: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 33: error #20: identifier "flag" is undefined
+"..\movement.h", line 36: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 53: error #20: identifier "flag" is undefined
+"..\movement.h", line 56: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 73: error #20: identifier "flag" is undefined
+"..\movement.h", line 76: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 96: error #20: identifier "flag" is undefined
+"..\movement.h", line 99: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 106: warning #225-D: function "uart_sendChar" declared implicitly
+"../Map.c", line 27: warning #225-D: function "cyBot_getByte" declared implicitly
+"../Map.c", line 48: warning #183-D: argument is incompatible with corresponding format string conversion
+"../Map.c", line 119: warning #225-D: function "turn_right" declared implicitly
+"../Map.c", line 123: warning #225-D: function "turn_left" declared implicitly
+10 errors detected in the compilation of "../Map.c".
+gmake: *** [Map.obj] Error 1
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"..\movement.h", line 14: error #20: identifier "flag" is undefined
+"..\movement.h", line 17: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 33: error #20: identifier "flag" is undefined
+"..\movement.h", line 36: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 53: error #20: identifier "flag" is undefined
+"..\movement.h", line 56: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 73: error #20: identifier "flag" is undefined
+"..\movement.h", line 76: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 96: error #20: identifier "flag" is undefined
+"..\movement.h", line 99: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 106: warning #225-D: function "uart_sendChar" declared implicitly
+10 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+Building file: "../main2.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main2.d_raw"  "../main2.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main2.obj' failed
+"..\movement.h", line 14: error #20: identifier "flag" is undefined
+"..\movement.h", line 17: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 33: error #20: identifier "flag" is undefined
+"..\movement.h", line 36: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 53: error #20: identifier "flag" is undefined
+"..\movement.h", line 56: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 73: error #20: identifier "flag" is undefined
+"..\movement.h", line 76: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 96: error #20: identifier "flag" is undefined
+"..\movement.h", line 99: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 106: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 23: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 48: warning #2170-D: use of a const variable in a constant expression is nonstandard in C
+"../main2.c", line 226: warning #225-D: function "uart_init" declared implicitly
+"../main2.c", line 230: warning #225-D: function "uart_interrupt_init" declared implicitly
+"../main2.c", line 251: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 253: warning #225-D: function "uart_sendChar" declared implicitly
+10 errors detected in the compilation of "../main2.c".
+gmake: *** [main2.obj] Error 1
+Building file: "../movement.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="movement.d_raw"  "../movement.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'movement.obj' failed
+"..\movement.h", line 14: error #20: identifier "flag" is undefined
+"..\movement.h", line 17: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 33: error #20: identifier "flag" is undefined
+"..\movement.h", line 36: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 53: error #20: identifier "flag" is undefined
+"..\movement.h", line 56: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 73: error #20: identifier "flag" is undefined
+"..\movement.h", line 76: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 96: error #20: identifier "flag" is undefined
+"..\movement.h", line 99: error #20: identifier "uart_data" is undefined
+"..\movement.h", line 106: warning #225-D: function "uart_sendChar" declared implicitly
+"../movement.c", line 6: error #249: function "move_forward" has already been defined
+"../movement.c", line 18: warning #225-D: function "turn_right" declared implicitly
+"../movement.c", line 20: warning #225-D: function "turn_left" declared implicitly
+"../movement.c", line 26: warning #225-D: function "turn_left" declared implicitly
+"../movement.c", line 28: warning #225-D: function "turn_right" declared implicitly
+"../movement.c", line 39: error #249: function "move_backward" has already been defined
+"../movement.c", line 52: warning #161-D: declaration is incompatible with previous "turn_right" (declared at line 18)
+"../movement.c", line 65: warning #161-D: declaration is incompatible with previous "turn_left" (declared at line 20)
+12 errors detected in the compilation of "../movement.c".
+gmake: *** [movement.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"..\movement.h", line 109: warning #225-D: function "uart_sendChar" declared implicitly
+"..\movement.h", line 116: warning #994-D: missing return statement at end of non-void function "move_until_bump"
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: warning #78-D: this declaration has no storage class or type specifier
+"..\movement.h", line 117: error #148: declaration is incompatible with "void oi_setWheels(int16_t, int16_t)" (declared at line 158 of "..\open_interface.h")
+"..\movement.h", line 118: error #171: expected a declaration
+"..\movement.h", line 119: error #171: expected a declaration
+"..\cyBot_Scan.h", line 13: warning #12-D: parsing restarts here after previous syntax error
+"..\cyBot_Scan.h", line 34: error #20: identifier "cyBOT_Scan_t" is undefined
+"..\Map.h", line 13: error #20: identifier "cyBOT_Scan_t" is undefined
+"..\Map.h", line 15: error #20: identifier "cyBOT_Scan_t" is undefined
+8 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Map.obj' failed
+"..\movement.h", line 109: warning #225-D: function "uart_sendChar" declared implicitly
+"..\movement.h", line 116: warning #994-D: missing return statement at end of non-void function "move_until_bump"
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: warning #78-D: this declaration has no storage class or type specifier
+"..\movement.h", line 117: error #148: declaration is incompatible with "void oi_setWheels(int16_t, int16_t)" (declared at line 158 of "..\open_interface.h")
+"..\movement.h", line 118: error #171: expected a declaration
+"..\movement.h", line 119: error #171: expected a declaration
+"..\cyBot_Scan.h", line 13: warning #12-D: parsing restarts here after previous syntax error
+"..\cyBot_Scan.h", line 34: error #20: identifier "cyBOT_Scan_t" is undefined
+"..\Map.h", line 13: error #20: identifier "cyBOT_Scan_t" is undefined
+"..\Map.h", line 15: error #20: identifier "cyBOT_Scan_t" is undefined
+"../Map.c", line 10: error #20: identifier "cyBOT_Scan_t" is undefined
+"../Map.c", line 14: error #20: identifier "cyBOT_Scan_t" is undefined
+"../Map.c", line 27: warning #225-D: function "cyBot_getByte" declared implicitly
+"../Map.c", line 48: warning #183-D: argument is incompatible with corresponding format string conversion
+"../Map.c", line 119: warning #225-D: function "turn_right" declared implicitly
+"../Map.c", line 123: warning #225-D: function "turn_left" declared implicitly
+10 errors detected in the compilation of "../Map.c".
+gmake: *** [Map.obj] Error 1
+Building file: "../main2.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main2.d_raw"  "../main2.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main2.obj' failed
+"..\movement.h", line 109: warning #225-D: function "uart_sendChar" declared implicitly
+"..\movement.h", line 116: warning #994-D: missing return statement at end of non-void function "move_until_bump"
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: warning #78-D: this declaration has no storage class or type specifier
+"..\movement.h", line 117: error #148: declaration is incompatible with "void oi_setWheels(int16_t, int16_t)" (declared at line 158 of "..\open_interface.h")
+"..\movement.h", line 118: error #171: expected a declaration
+"..\movement.h", line 119: error #171: expected a declaration
+"../main2.c", line 9: warning #12-D: parsing restarts here after previous syntax error
+"../main2.c", line 23: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 48: warning #2170-D: use of a const variable in a constant expression is nonstandard in C
+"../main2.c", line 226: warning #225-D: function "uart_init" declared implicitly
+"../main2.c", line 230: warning #225-D: function "uart_interrupt_init" declared implicitly
+"../main2.c", line 244: error #20: identifier "uart_data" is undefined
+"../main2.c", line 251: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 253: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 296: warning #225-D: function "hasBumpedLeft" declared implicitly
+"../main2.c", line 299: warning #225-D: function "hasBumpedRight" declared implicitly
+6 errors detected in the compilation of "../main2.c".
+gmake: *** [main2.obj] Error 1
+Building file: "../movement.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="movement.d_raw"  "../movement.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'movement.obj' failed
+"..\movement.h", line 109: warning #225-D: function "uart_sendChar" declared implicitly
+"..\movement.h", line 116: warning #994-D: missing return statement at end of non-void function "move_until_bump"
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: warning #78-D: this declaration has no storage class or type specifier
+"..\movement.h", line 117: error #148: declaration is incompatible with "void oi_setWheels(int16_t, int16_t)" (declared at line 158 of "..\open_interface.h")
+"..\movement.h", line 118: error #171: expected a declaration
+"..\movement.h", line 119: error #171: expected a declaration
+"../movement.c", line 27: warning #12-D: parsing restarts here after previous syntax error
+"../movement.c", line 28: error #41: expected an identifier
+"../movement.c", line 28: warning #78-D: this declaration has no storage class or type specifier
+"../movement.c", line 28: warning #93-D: identifier-list parameters may only be used in a function definition
+"../movement.c", line 29: error #171: expected a declaration
+"../movement.c", line 31: warning #78-D: this declaration has no storage class or type specifier
+"../movement.c", line 31: error #66: expected a ";"
+"../movement.c", line 32: error #80: expected a type specifier
+"../movement.c", line 32: error #760: variable "sum" is not a type name
+"../movement.c", line 32: warning #78-D: this declaration has no storage class or type specifier
+"../movement.c", line 32: error #148: declaration is incompatible with "void lcd_printf(const char *, ...)" (declared at line 44 of "..\lcd.h")
+"../movement.c", line 34: error #171: expected a declaration
+"../movement.c", line 36: error #171: expected a declaration
+"../movement.c", line 37: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+14 errors detected in the compilation of "../movement.c".
+gmake: *** [movement.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main2.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main2.d_raw"  "../main2.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main2.obj' failed
+"..\movement.h", line 109: warning #225-D: function "uart_sendChar" declared implicitly
+"..\movement.h", line 116: warning #994-D: missing return statement at end of non-void function "move_until_bump"
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: warning #78-D: this declaration has no storage class or type specifier
+"..\movement.h", line 117: error #148: declaration is incompatible with "void oi_setWheels(int16_t, int16_t)" (declared at line 158 of "..\open_interface.h")
+"..\movement.h", line 118: error #171: expected a declaration
+"..\movement.h", line 119: error #171: expected a declaration
+"../main2.c", line 9: warning #12-D: parsing restarts here after previous syntax error
+"../main2.c", line 23: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 48: warning #2170-D: use of a const variable in a constant expression is nonstandard in C
+"../main2.c", line 156: warning #225-D: function "turn_clockwise" declared implicitly
+"../main2.c", line 160: warning #225-D: function "turn_counterclockwise" declared implicitly
+"../main2.c", line 180: warning #225-D: function "turn_clockwise" declared implicitly
+"../main2.c", line 185: warning #225-D: function "turn_counterclockwise" declared implicitly
+"../main2.c", line 196: warning #225-D: function "turn_clockwise" declared implicitly
+"../main2.c", line 198: warning #225-D: function "turn_counterclockwise" declared implicitly
+"../main2.c", line 204: warning #225-D: function "turn_counterclockwise" declared implicitly
+"../main2.c", line 206: warning #225-D: function "turn_clockwise" declared implicitly
+"../main2.c", line 226: warning #225-D: function "uart_init" declared implicitly
+"../main2.c", line 230: warning #225-D: function "uart_interrupt_init" declared implicitly
+"../main2.c", line 244: error #20: identifier "uart_data" is undefined
+"../main2.c", line 251: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 253: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 296: warning #225-D: function "hasBumpedLeft" declared implicitly
+"../main2.c", line 299: warning #225-D: function "hasBumpedRight" declared implicitly
+6 errors detected in the compilation of "../main2.c".
+gmake: *** [main2.obj] Error 1
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Map.obj' failed
+"..\movement.h", line 109: warning #225-D: function "uart_sendChar" declared implicitly
+"..\movement.h", line 116: warning #994-D: missing return statement at end of non-void function "move_until_bump"
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: warning #78-D: this declaration has no storage class or type specifier
+"..\movement.h", line 117: error #148: declaration is incompatible with "void oi_setWheels(int16_t, int16_t)" (declared at line 158 of "..\open_interface.h")
+"..\movement.h", line 118: error #171: expected a declaration
+"..\movement.h", line 119: error #171: expected a declaration
+"..\cyBot_Scan.h", line 13: warning #12-D: parsing restarts here after previous syntax error
+"..\cyBot_Scan.h", line 34: error #20: identifier "cyBOT_Scan_t" is undefined
+"..\Map.h", line 13: error #20: identifier "cyBOT_Scan_t" is undefined
+"..\Map.h", line 15: error #20: identifier "cyBOT_Scan_t" is undefined
+"../Map.c", line 10: error #20: identifier "cyBOT_Scan_t" is undefined
+"../Map.c", line 14: error #20: identifier "cyBOT_Scan_t" is undefined
+"../Map.c", line 27: warning #225-D: function "cyBot_getByte" declared implicitly
+"../Map.c", line 48: warning #183-D: argument is incompatible with corresponding format string conversion
+10 errors detected in the compilation of "../Map.c".
+gmake: *** [Map.obj] Error 1
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"..\movement.h", line 109: warning #225-D: function "uart_sendChar" declared implicitly
+"..\movement.h", line 116: warning #994-D: missing return statement at end of non-void function "move_until_bump"
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: warning #78-D: this declaration has no storage class or type specifier
+"..\movement.h", line 117: error #148: declaration is incompatible with "void oi_setWheels(int16_t, int16_t)" (declared at line 158 of "..\open_interface.h")
+"..\movement.h", line 118: error #171: expected a declaration
+"..\movement.h", line 119: error #171: expected a declaration
+"..\cyBot_Scan.h", line 13: warning #12-D: parsing restarts here after previous syntax error
+"..\cyBot_Scan.h", line 34: error #20: identifier "cyBOT_Scan_t" is undefined
+"..\Map.h", line 13: error #20: identifier "cyBOT_Scan_t" is undefined
+"..\Map.h", line 15: error #20: identifier "cyBOT_Scan_t" is undefined
+8 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+Building file: "../movement.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="movement.d_raw"  "../movement.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'movement.obj' failed
+"..\movement.h", line 109: warning #225-D: function "uart_sendChar" declared implicitly
+"..\movement.h", line 116: warning #994-D: missing return statement at end of non-void function "move_until_bump"
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: warning #78-D: this declaration has no storage class or type specifier
+"..\movement.h", line 117: error #148: declaration is incompatible with "void oi_setWheels(int16_t, int16_t)" (declared at line 158 of "..\open_interface.h")
+"..\movement.h", line 118: error #171: expected a declaration
+"..\movement.h", line 119: error #171: expected a declaration
+"../movement.c", line 27: warning #12-D: parsing restarts here after previous syntax error
+"../movement.c", line 28: error #41: expected an identifier
+"../movement.c", line 28: warning #78-D: this declaration has no storage class or type specifier
+"../movement.c", line 28: warning #93-D: identifier-list parameters may only be used in a function definition
+"../movement.c", line 28: error #148: declaration is incompatible with "void turn_right(oi_t *, float)" (declared at line 48 of "..\movement.h")
+"../movement.c", line 29: error #171: expected a declaration
+"../movement.c", line 31: warning #78-D: this declaration has no storage class or type specifier
+"../movement.c", line 31: error #66: expected a ";"
+"../movement.c", line 32: error #80: expected a type specifier
+"../movement.c", line 32: error #760: variable "sum" is not a type name
+"../movement.c", line 32: warning #78-D: this declaration has no storage class or type specifier
+"../movement.c", line 32: error #148: declaration is incompatible with "void lcd_printf(const char *, ...)" (declared at line 44 of "..\lcd.h")
+"../movement.c", line 34: error #171: expected a declaration
+"../movement.c", line 36: error #171: expected a declaration
+"../movement.c", line 37: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+15 errors detected in the compilation of "../movement.c".
+gmake: *** [movement.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main2.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main2.d_raw"  "../main2.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main2.obj' failed
+"..\movement.h", line 109: warning #225-D: function "uart_sendChar" declared implicitly
+"..\movement.h", line 116: warning #994-D: missing return statement at end of non-void function "move_until_bump"
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: warning #78-D: this declaration has no storage class or type specifier
+"..\movement.h", line 117: error #148: declaration is incompatible with "void oi_setWheels(int16_t, int16_t)" (declared at line 158 of "..\open_interface.h")
+"..\movement.h", line 118: error #171: expected a declaration
+"..\movement.h", line 119: error #171: expected a declaration
+"../main2.c", line 9: warning #12-D: parsing restarts here after previous syntax error
+"../main2.c", line 23: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 48: warning #2170-D: use of a const variable in a constant expression is nonstandard in C
+"../main2.c", line 156: warning #225-D: function "turn_clockwise" declared implicitly
+"../main2.c", line 160: warning #225-D: function "turn_counterclockwise" declared implicitly
+"../main2.c", line 180: warning #225-D: function "turn_clockwise" declared implicitly
+"../main2.c", line 185: warning #225-D: function "turn_counterclockwise" declared implicitly
+"../main2.c", line 196: warning #225-D: function "turn_clockwise" declared implicitly
+"../main2.c", line 198: warning #225-D: function "turn_counterclockwise" declared implicitly
+"../main2.c", line 204: warning #225-D: function "turn_counterclockwise" declared implicitly
+"../main2.c", line 206: warning #225-D: function "turn_clockwise" declared implicitly
+"../main2.c", line 226: warning #225-D: function "uart_init" declared implicitly
+"../main2.c", line 230: warning #225-D: function "uart_interrupt_init" declared implicitly
+"../main2.c", line 244: error #20: identifier "uart_data" is undefined
+"../main2.c", line 251: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 253: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 296: warning #225-D: function "hasBumpedLeft" declared implicitly
+"../main2.c", line 299: warning #225-D: function "hasBumpedRight" declared implicitly
+6 errors detected in the compilation of "../main2.c".
+gmake: *** [main2.obj] Error 1
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Map.obj' failed
+"..\movement.h", line 109: warning #225-D: function "uart_sendChar" declared implicitly
+"..\movement.h", line 116: warning #994-D: missing return statement at end of non-void function "move_until_bump"
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: warning #78-D: this declaration has no storage class or type specifier
+"..\movement.h", line 117: error #148: declaration is incompatible with "void oi_setWheels(int16_t, int16_t)" (declared at line 158 of "..\open_interface.h")
+"..\movement.h", line 118: error #171: expected a declaration
+"..\movement.h", line 119: error #171: expected a declaration
+"..\cyBot_Scan.h", line 13: warning #12-D: parsing restarts here after previous syntax error
+"..\cyBot_Scan.h", line 34: error #20: identifier "cyBOT_Scan_t" is undefined
+"..\Map.h", line 13: error #20: identifier "cyBOT_Scan_t" is undefined
+"..\Map.h", line 15: error #20: identifier "cyBOT_Scan_t" is undefined
+"../Map.c", line 10: error #20: identifier "cyBOT_Scan_t" is undefined
+"../Map.c", line 14: error #20: identifier "cyBOT_Scan_t" is undefined
+"../Map.c", line 27: warning #225-D: function "cyBot_getByte" declared implicitly
+"../Map.c", line 48: warning #183-D: argument is incompatible with corresponding format string conversion
+10 errors detected in the compilation of "../Map.c".
+gmake: *** [Map.obj] Error 1
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"..\movement.h", line 109: warning #225-D: function "uart_sendChar" declared implicitly
+"..\movement.h", line 116: warning #994-D: missing return statement at end of non-void function "move_until_bump"
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: warning #78-D: this declaration has no storage class or type specifier
+"..\movement.h", line 117: error #148: declaration is incompatible with "void oi_setWheels(int16_t, int16_t)" (declared at line 158 of "..\open_interface.h")
+"..\movement.h", line 118: error #171: expected a declaration
+"..\movement.h", line 119: error #171: expected a declaration
+"..\cyBot_Scan.h", line 13: warning #12-D: parsing restarts here after previous syntax error
+"..\cyBot_Scan.h", line 34: error #20: identifier "cyBOT_Scan_t" is undefined
+"..\Map.h", line 13: error #20: identifier "cyBOT_Scan_t" is undefined
+"..\Map.h", line 15: error #20: identifier "cyBOT_Scan_t" is undefined
+8 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+Building file: "../movement.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="movement.d_raw"  "../movement.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'movement.obj' failed
+"..\movement.h", line 109: warning #225-D: function "uart_sendChar" declared implicitly
+"..\movement.h", line 116: warning #994-D: missing return statement at end of non-void function "move_until_bump"
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: warning #78-D: this declaration has no storage class or type specifier
+"..\movement.h", line 117: error #148: declaration is incompatible with "void oi_setWheels(int16_t, int16_t)" (declared at line 158 of "..\open_interface.h")
+"..\movement.h", line 118: error #171: expected a declaration
+"..\movement.h", line 119: error #171: expected a declaration
+"../movement.c", line 27: warning #12-D: parsing restarts here after previous syntax error
+"../movement.c", line 28: error #80: expected a type specifier
+"../movement.c", line 28: warning #78-D: this declaration has no storage class or type specifier
+"../movement.c", line 28: error #148: declaration is incompatible with "void turn_right(oi_t *, float)" (declared at line 48 of "..\movement.h")
+"../movement.c", line 29: error #171: expected a declaration
+"../movement.c", line 31: warning #78-D: this declaration has no storage class or type specifier
+"../movement.c", line 31: error #66: expected a ";"
+"../movement.c", line 32: error #80: expected a type specifier
+"../movement.c", line 32: error #760: variable "sum" is not a type name
+"../movement.c", line 32: warning #78-D: this declaration has no storage class or type specifier
+"../movement.c", line 32: error #148: declaration is incompatible with "void lcd_printf(const char *, ...)" (declared at line 44 of "..\lcd.h")
+"../movement.c", line 34: error #171: expected a declaration
+"../movement.c", line 36: error #171: expected a declaration
+"../movement.c", line 37: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+15 errors detected in the compilation of "../movement.c".
+gmake: *** [movement.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../Map.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Map.d_raw"  "../Map.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Map.obj' failed
+"..\movement.h", line 109: warning #225-D: function "uart_sendChar" declared implicitly
+"..\movement.h", line 116: warning #994-D: missing return statement at end of non-void function "move_until_bump"
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: warning #78-D: this declaration has no storage class or type specifier
+"..\movement.h", line 117: error #148: declaration is incompatible with "void oi_setWheels(int16_t, int16_t)" (declared at line 158 of "..\open_interface.h")
+"..\movement.h", line 118: error #171: expected a declaration
+"..\movement.h", line 119: error #171: expected a declaration
+"..\cyBot_Scan.h", line 13: warning #12-D: parsing restarts here after previous syntax error
+"..\cyBot_Scan.h", line 34: error #20: identifier "cyBOT_Scan_t" is undefined
+"..\Map.h", line 13: error #20: identifier "cyBOT_Scan_t" is undefined
+"..\Map.h", line 15: error #20: identifier "cyBOT_Scan_t" is undefined
+"../Map.c", line 10: error #20: identifier "cyBOT_Scan_t" is undefined
+"../Map.c", line 14: error #20: identifier "cyBOT_Scan_t" is undefined
+"../Map.c", line 27: warning #225-D: function "cyBot_getByte" declared implicitly
+"../Map.c", line 48: warning #183-D: argument is incompatible with corresponding format string conversion
+10 errors detected in the compilation of "../Map.c".
+gmake: *** [Map.obj] Error 1
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"..\movement.h", line 109: warning #225-D: function "uart_sendChar" declared implicitly
+"..\movement.h", line 116: warning #994-D: missing return statement at end of non-void function "move_until_bump"
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: warning #78-D: this declaration has no storage class or type specifier
+"..\movement.h", line 117: error #148: declaration is incompatible with "void oi_setWheels(int16_t, int16_t)" (declared at line 158 of "..\open_interface.h")
+"..\movement.h", line 118: error #171: expected a declaration
+"..\movement.h", line 119: error #171: expected a declaration
+"..\cyBot_Scan.h", line 13: warning #12-D: parsing restarts here after previous syntax error
+"..\cyBot_Scan.h", line 34: error #20: identifier "cyBOT_Scan_t" is undefined
+"..\Map.h", line 13: error #20: identifier "cyBOT_Scan_t" is undefined
+"..\Map.h", line 15: error #20: identifier "cyBOT_Scan_t" is undefined
+8 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+Building file: "../main2.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main2.d_raw"  "../main2.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main2.obj' failed
+"..\movement.h", line 109: warning #225-D: function "uart_sendChar" declared implicitly
+"..\movement.h", line 116: warning #994-D: missing return statement at end of non-void function "move_until_bump"
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: warning #78-D: this declaration has no storage class or type specifier
+"..\movement.h", line 117: error #148: declaration is incompatible with "void oi_setWheels(int16_t, int16_t)" (declared at line 158 of "..\open_interface.h")
+"..\movement.h", line 118: error #171: expected a declaration
+"..\movement.h", line 119: error #171: expected a declaration
+"../main2.c", line 9: warning #12-D: parsing restarts here after previous syntax error
+"../main2.c", line 23: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 48: warning #2170-D: use of a const variable in a constant expression is nonstandard in C
+"../main2.c", line 156: warning #225-D: function "turn_clockwise" declared implicitly
+"../main2.c", line 160: warning #225-D: function "turn_counterclockwise" declared implicitly
+"../main2.c", line 180: warning #225-D: function "turn_clockwise" declared implicitly
+"../main2.c", line 185: warning #225-D: function "turn_counterclockwise" declared implicitly
+"../main2.c", line 196: warning #225-D: function "turn_clockwise" declared implicitly
+"../main2.c", line 198: warning #225-D: function "turn_counterclockwise" declared implicitly
+"../main2.c", line 204: warning #225-D: function "turn_counterclockwise" declared implicitly
+"../main2.c", line 206: warning #225-D: function "turn_clockwise" declared implicitly
+"../main2.c", line 226: warning #225-D: function "uart_init" declared implicitly
+"../main2.c", line 230: warning #225-D: function "uart_interrupt_init" declared implicitly
+"../main2.c", line 244: error #20: identifier "uart_data" is undefined
+"../main2.c", line 251: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 253: warning #225-D: function "uart_sendChar" declared implicitly
+"../main2.c", line 296: warning #225-D: function "hasBumpedLeft" declared implicitly
+"../main2.c", line 299: warning #225-D: function "hasBumpedRight" declared implicitly
+6 errors detected in the compilation of "../main2.c".
+gmake: *** [main2.obj] Error 1
+Building file: "../movement.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="movement.d_raw"  "../movement.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'movement.obj' failed
+"..\movement.h", line 109: warning #225-D: function "uart_sendChar" declared implicitly
+"..\movement.h", line 116: warning #994-D: missing return statement at end of non-void function "move_until_bump"
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: error #80: expected a type specifier
+"..\movement.h", line 117: warning #78-D: this declaration has no storage class or type specifier
+"..\movement.h", line 117: error #148: declaration is incompatible with "void oi_setWheels(int16_t, int16_t)" (declared at line 158 of "..\open_interface.h")
+"..\movement.h", line 118: error #171: expected a declaration
+"..\movement.h", line 119: error #171: expected a declaration
+"../movement.c", line 27: warning #12-D: parsing restarts here after previous syntax error
+"../movement.c", line 28: error #80: expected a type specifier
+"../movement.c", line 28: warning #78-D: this declaration has no storage class or type specifier
+"../movement.c", line 28: error #148: declaration is incompatible with "void turn_right(oi_t *, float)" (declared at line 48 of "..\movement.h")
+"../movement.c", line 29: error #171: expected a declaration
+"../movement.c", line 31: warning #78-D: this declaration has no storage class or type specifier
+"../movement.c", line 31: error #66: expected a ";"
+"../movement.c", line 32: error #80: expected a type specifier
+"../movement.c", line 32: error #760: variable "sum" is not a type name
+"../movement.c", line 32: warning #78-D: this declaration has no storage class or type specifier
+"../movement.c", line 32: error #148: declaration is incompatible with "void lcd_printf(const char *, ...)" (declared at line 44 of "..\lcd.h")
+"../movement.c", line 34: error #171: expected a declaration
+"../movement.c", line 36: error #171: expected a declaration
+"../movement.c", line 37: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+15 errors detected in the compilation of "../movement.c".
+gmake: *** [movement.obj] Error 1
+Building file: "../Timer.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Timer.d_raw"  "../Timer.c"
+Finished building: "../Timer.c"
+ 
+Building file: "../lcd.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lcd.d_raw"  "../lcd.c"
+Finished building: "../lcd.c"
+ 
+Building file: "../uart_extra_help.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart_extra_help.d_raw"  "../uart_extra_help.c"
+Finished building: "../uart_extra_help.c"
+ 
+Building file: "../open_interface.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="open_interface.d_raw"  "../open_interface.c"
+"../open_interface.c", line 356: warning #179-D: variable "charging_state" was declared but never referenced
+Finished building: "../open_interface.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../Timer.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Timer.d_raw"  "../Timer.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Timer.obj' failed
+"../Timer.c", line 11: fatal error #1965: cannot open source file "Lab7 Code Files/Timer.h"
+1 catastrophic error detected in the compilation of "../Timer.c".
+Compilation terminated.
+gmake: *** [Timer.obj] Error 1
+Building file: "../lcd.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lcd.d_raw"  "../lcd.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'lcd.obj' failed
+"../lcd.c", line 12: fatal error #1965: cannot open source file "Lab7 Code Files/lcd.h"
+1 catastrophic error detected in the compilation of "../lcd.c".
+Compilation terminated.
+gmake: *** [lcd.obj] Error 1
+Building file: "../lab7_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7_template.d_raw"  "../lab7_template.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'lab7_template.obj' failed
+"..\lcd.h", line 18: fatal error #1965: cannot open source file "Lab7 Code Files/Timer.h"
+1 catastrophic error detected in the compilation of "../lab7_template.c".
+Compilation terminated.
+gmake: *** [lab7_template.obj] Error 1
+Building file: "../movement.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="movement.d_raw"  "../movement.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'movement.obj' failed
+"..\open_interface.h", line 23: fatal error #1965: cannot open source file "Lab7 Code Files/lcd.h"
+1 catastrophic error detected in the compilation of "../movement.c".
+Compilation terminated.
+gmake: *** [movement.obj] Error 1
+Building file: "../open_interface.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="open_interface.d_raw"  "../open_interface.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'open_interface.obj' failed
+"../open_interface.c", line 18: fatal error #1965: cannot open source file "Lab7 Code Files/open_interface.h"
+1 catastrophic error detected in the compilation of "../open_interface.c".
+Compilation terminated.
+gmake: *** [open_interface.obj] Error 1
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+Finished building: "../uart-interrupt.c"
+ 
+Building file: "../uart_extra_help.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart_extra_help.d_raw"  "../uart_extra_help.c"
+Finished building: "../uart_extra_help.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../Timer.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Timer.d_raw"  "../Timer.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Timer.obj' failed
+"../Timer.c", line 11: fatal error #1965: cannot open source file "Lab7 Code Files/Timer.h"
+1 catastrophic error detected in the compilation of "../Timer.c".
+Compilation terminated.
+gmake: *** [Timer.obj] Error 1
+Building file: "../lcd.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lcd.d_raw"  "../lcd.c"
+Finished building: "../lcd.c"
+ 
+Building file: "../lab7_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7_template.d_raw"  "../lab7_template.c"
+"../lab7_template.c", line 93: warning #176-D: expression has no effect
+Finished building: "../lab7_template.c"
+ 
+Building file: "../movement.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="movement.d_raw"  "../movement.c"
+Finished building: "../movement.c"
+ 
+Building file: "../open_interface.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="open_interface.d_raw"  "../open_interface.c"
+"../open_interface.c", line 356: warning #179-D: variable "charging_state" was declared but never referenced
+Finished building: "../open_interface.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../Timer.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Timer.d_raw"  "../Timer.c"
+Finished building: "../Timer.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./lab7_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "./uart_extra_help.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart_extra_help.obj"
+error #10056: symbol "uart_interrupt_init" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart_extra_help.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart_extra_help.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart_extra_help.obj"
+error #10010: errors encountered during linking; "Lab7.out" not built
+ 
+>> Compilation failure
+makefile:147: recipe for target 'Lab7.out' failed
+gmake[1]: *** [Lab7.out] Error 1
+gmake: *** [all] Error 2
+makefile:143: recipe for target 'all' failed
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./lab7_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab7_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7_template.d_raw"  "../lab7_template.c"
+"../lab7_template.c", line 62: warning #225-D: function "cyBOT_init_scan" declared implicitly
+"../lab7_template.c", line 100: warning #176-D: expression has no effect
+Finished building: "../lab7_template.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./lab7_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+ 
+ undefined       first referenced   
+  symbol             in file        
+ ---------       ----------------   
+ cyBOT_init_scan ./lab7_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab7.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab7.out' failed
+makefile:142: recipe for target 'all' failed
+gmake[1]: *** [Lab7.out] Error 1
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab7_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7_template.d_raw"  "../lab7_template.c"
+"../lab7_template.c", line 62: warning #225-D: function "cyBOT_init_scan" declared implicitly
+"../lab7_template.c", line 100: warning #176-D: expression has no effect
+Finished building: "../lab7_template.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./lab7_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+ 
+ undefined       first referenced   
+  symbol             in file        
+ ---------       ----------------   
+ cyBOT_init_scan ./lab7_template.obj
+ 
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab7.out' failed
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab7.out" not built
+gmake[1]: *** [Lab7.out] Error 1
+gmake: *** [all] Error 2
+makefile:142: recipe for target 'all' failed
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab7_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7_template.d_raw"  "../lab7_template.c"
+"../lab7_template.c", line 62: warning #225-D: function "cyBOT_init_scan" declared implicitly
+"../lab7_template.c", line 100: warning #176-D: expression has no effect
+Finished building: "../lab7_template.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./lab7_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+ 
+ undefined       first referenced   
+  symbol             in file        
+ ---------       ----------------   
+ cyBOT_init_scan ./lab7_template.obj
+ 
+error #10234-D: unresolved symbols remain
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab7.out' failed
+error #10010: errors encountered during linking; "Lab7.out" not built
+makefile:142: recipe for target 'all' failed
+gmake[1]: *** [Lab7.out] Error 1
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab7_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7_template.d_raw"  "../lab7_template.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'lab7_template.obj' failed
+"../lab7_template.c", line 62: error #167: too few arguments in function call
+"../lab7_template.c", line 100: warning #176-D: expression has no effect
+1 error detected in the compilation of "../lab7_template.c".
+gmake: *** [lab7_template.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab7_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7_template.d_raw"  "../lab7_template.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'lab7_template.obj' failed
+"../lab7_template.c", line 59: error #66: expected a ";"
+"../lab7_template.c", line 84: warning #12-D: parsing restarts here after previous syntax error
+"../lab7_template.c", line 85: error #20: identifier "temp" is undefined
+"../lab7_template.c", line 85: error #20: identifier "i" is undefined
+"../lab7_template.c", line 86: error #20: identifier "angle" is undefined
+"../lab7_template.c", line 91: error #171: expected a declaration
+"../lab7_template.c", line 112: warning #12-D: parsing restarts here after previous syntax error
+"../lab7_template.c", line 113: error #41: expected an identifier
+"../lab7_template.c", line 113: error #18: expected a ")"
+"../lab7_template.c", line 113: warning #78-D: this declaration has no storage class or type specifier
+"../lab7_template.c", line 113: warning #93-D: identifier-list parameters may only be used in a function definition
+"../lab7_template.c", line 114: warning #78-D: this declaration has no storage class or type specifier
+"../lab7_template.c", line 114: warning #93-D: identifier-list parameters may only be used in a function definition
+"../lab7_template.c", line 114: error #148: declaration is incompatible with "void uart_sendStr(const char *)" (declared at line 48 of "..\uart-interrupt.h")
+"../lab7_template.c", line 115: error #28: expression must have a constant value
+"../lab7_template.c", line 115: error #20: identifier "scan" is undefined
+"../lab7_template.c", line 116: error #28: expression must have a constant value
+"../lab7_template.c", line 116: error #28: expression must have a constant value
+"../lab7_template.c", line 116: error #60: function call is not allowed in a constant expression
+"../lab7_template.c", line 116: error #20: identifier "initalAngle" is undefined
+"../lab7_template.c", line 116: error #28: expression must have a constant value
+"../lab7_template.c", line 117: error #41: expected an identifier
+"../lab7_template.c", line 117: error #18: expected a ")"
+"../lab7_template.c", line 117: warning #78-D: this declaration has no storage class or type specifier
+"../lab7_template.c", line 117: warning #93-D: identifier-list parameters may only be used in a function definition
+"../lab7_template.c", line 118: warning #78-D: this declaration has no storage class or type specifier
+"../lab7_template.c", line 118: warning #93-D: identifier-list parameters may only be used in a function definition
+"../lab7_template.c", line 119: warning #78-D: this declaration has no storage class or type specifier
+"../lab7_template.c", line 119: error #66: expected a ";"
+"../lab7_template.c", line 120: error #80: expected a type specifier
+"../lab7_template.c", line 120: warning #78-D: this declaration has no storage class or type specifier
+"../lab7_template.c", line 120: error #148: declaration is incompatible with "void timer_waitMillis(unsigned int)" (declared at line 64 of "..\Timer.h")
+"../lab7_template.c", line 121: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+21 errors detected in the compilation of "../lab7_template.c".
+gmake: *** [lab7_template.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab7_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7_template.d_raw"  "../lab7_template.c"
+"../lab7_template.c", line 93: warning #176-D: expression has no effect
+Finished building: "../lab7_template.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./lab7_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab7_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7_template.d_raw"  "../lab7_template.c"
+"../lab7_template.c", line 93: warning #176-D: expression has no effect
+Finished building: "../lab7_template.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./lab7_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab7_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7_template.d_raw"  "../lab7_template.c"
+"../lab7_template.c", line 93: warning #176-D: expression has no effect
+Finished building: "../lab7_template.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./lab7_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab7_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7_template.d_raw"  "../lab7_template.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'lab7_template.obj' failed
+"../lab7_template.c", line 93: warning #176-D: expression has no effect
+"../lab7_template.c", line 142: error #20: identifier "fromPutty" is undefined
+1 error detected in the compilation of "../lab7_template.c".
+gmake: *** [lab7_template.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab7_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7_template.d_raw"  "../lab7_template.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'lab7_template.obj' failed
+"../lab7_template.c", line 93: warning #176-D: expression has no effect
+"../lab7_template.c", line 143: error #66: expected a ";"
+"../lab7_template.c", line 144: warning #551-D: variable "fromPutty" is used before its value is set
+1 error detected in the compilation of "../lab7_template.c".
+gmake: *** [lab7_template.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab7_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7_template.d_raw"  "../lab7_template.c"
+"../lab7_template.c", line 93: warning #176-D: expression has no effect
+Finished building: "../lab7_template.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./lab7_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab7_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288/Lab7/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7_template.d_raw"  "../lab7_template.c"
+"../lab7_template.c", line 93: warning #176-D: expression has no effect
+Finished building: "../lab7_template.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./lab7_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****

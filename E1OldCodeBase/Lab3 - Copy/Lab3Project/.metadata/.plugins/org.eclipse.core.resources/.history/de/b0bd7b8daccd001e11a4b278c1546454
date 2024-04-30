@@ -1,0 +1,156 @@
+// main file
+
+#include "open_interface.h"
+#include "movement.h"
+#include "cyBot_Scan.h"
+#include "cyBot_uart.h"
+#include "Timer.h"
+#include "lcd.h"
+
+void lab3part2(oi_t *sensor_data){
+    double i;
+      //Servo calibration test
+    //  cyBOT_Scan_t scan;
+    //
+    //  for (i=0; i <= 180; i+=2)
+    //  {
+    //    cyBOT_Scan(i, &scan);
+    //  }
+
+      //struct accessor
+      //scanData -> sound_dist;
+      //scanData -> IR_raw_val;
+
+      //Part 1
+    //  char ch;
+    //  while(ch != 'q'){
+    //      ch = cyBot_getByte();
+    //      lcd_printf(&ch);
+    //      cyBot_sendByte(ch);
+    //      char str[10] = "This is ";
+    //      str[8] = ch;
+    //      sendBytes(str, -10000);
+    //  }
+
+
+      //part 2
+      for (i = 0; i < 91; i++)
+      {
+      cyBOT_Scan(i*2, scan_data);
+      sendBytes("Degrees: ", i*2);
+      cyBot_sendByte('\t');
+      sendBytes("Distance: ", scan_data -> sound_dist);
+      cyBot_sendByte('\r');
+      cyBot_sendByte('\n');
+      sendBytes("IR: ", scan_data -> IR_raw_val);
+
+      // Call a function to move robot
+      //square(sensor_data);
+      //turn_left(sensor_data, 90);
+      //two_meter_race(sensor_data);
+    }
+
+}
+
+void main() {
+  oi_t *sensor_data = oi_alloc();
+  oi_init(sensor_data);
+
+  timer_init();
+  lcd_init();
+  cyBOT_init_Scan(0b0111);
+  cyBot_uart_init();
+//  cyBOT_SERVO_cal();
+  right_calibration_value = 232750;
+  left_calibration_value = 1193500;
+  //bot 11
+  cyBOT_Scan_t *scan_data = scan_alloc();
+
+  int s = 0;
+      char array[15];
+      int i = 0;
+
+  while(s != 'q') {
+          oi_update(sensor);
+          s = cyBot_getByte();
+          lcd_clear();
+          sprintf(array, "Got an %c", s);
+
+          for(i = 0; i < 15; i++) {
+              cyBot_sendByte(array[i]);
+          }
+          cyBot_sendByte('\r');
+
+          lcd_putc(s);
+
+
+          if(s == 'w') {
+              oi_setWheels(150, 150);
+          }
+          else if(s == 'a') {
+              oi_setWheels(150, -150);
+          }
+          else if(s == 'd') {
+              oi_setWheels(-150, 150);
+          }
+          else if(s == 's') {
+              oi_setWheels(-150,-150);
+          }
+          else if(s == 'm')
+          {
+  //            lab3part1(sensor);
+              lab3part2(sensor);
+          }
+          else
+          {
+  //            oi_free(sensor);
+              oi_setWheels(0,0);
+          }
+
+  scan_free(scan_data);
+  oi_free(sensor_data);
+}
+
+void sendBytes(char* message, double data){
+  int i;
+  char final_mes[100];
+
+  if (data != -10000) {
+    sprintf(final_mes, "%s %.3f", message, data);
+  } else {
+    strcpy(final_mes, message);
+  }
+//  sprintf(final_mes,"%s", final_mes);
+  for(i = 0; i < strlen(final_mes); i++){
+    //printf("%c\n", final_mes[i]);
+    cyBot_sendByte(final_mes[i]);
+  }
+
+}
+
+cyBOT_Scan_t *scan_alloc()
+{
+    return calloc(1, sizeof(cyBOT_Scan_t));
+}
+
+void scan_free(cyBOT_Scan_t *self)
+{
+    free(self);
+}
+
+void lcd_rotatingBanner(char* message)
+{
+    int i;
+    char* spaces = "                   ";
+    char final_mes[100];
+    sprintf(final_mes,"%s%s", spaces,message);
+    while(1){
+        for(i=0;i<=strlen(final_mes);i++){
+            lcd_printf("%.20s\n",final_mes+i);
+            timer_waitMillis(300);
+        }
+    }
+}
+
+
+

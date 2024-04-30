@@ -1,0 +1,22 @@
+
+
+/**
+ * main.c
+ */
+int main(void)
+{
+    cyBot_uart_init_clean(); // Provided in library via cyBot_uart.h
+    // Clean UART initialization
+    // Complete this code to configure GPIO PORTB alternate function
+    // This is the first half of the UART1 initialization steps
+    SYSCTL_RCGCGPIO_R |= 0x40005000;
+    while ((SYSCTL_PRGPIO_R & FIXME) == 0) {};
+    GPIO_PORTB_DEN_R |= FIXME;
+    GPIO_PORTB_AFSEL_R |= FIXME; //Enable alternate function for PB pins
+    GPIO_PORTB_PCTL_R &= FIXME; //Force 0's at desired locations
+    GPIO_PORTB_PCTL_R |= FIXME; //Force 1's at desired locations
+    // Note: Two lines of code for PCTL can be merged into one.
+    cyBot_uart_init_last_half(); // Provided in library
+    // Complete UART1 device configuration
+	return 0;
+}

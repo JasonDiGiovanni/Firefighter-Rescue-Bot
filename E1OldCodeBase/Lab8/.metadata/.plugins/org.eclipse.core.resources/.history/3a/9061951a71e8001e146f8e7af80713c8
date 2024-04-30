@@ -1,0 +1,18 @@
+/*
+ * adc.h
+ *
+ *  Created on: Mar 22, 2024
+ *      Author: jdigi
+ */
+
+#ifndef ADC_H_
+#define ADC_H_
+
+class adc
+{
+public:
+    adc();
+    virtual ~adc();
+};
+
+#endif /* ADC_H_ */

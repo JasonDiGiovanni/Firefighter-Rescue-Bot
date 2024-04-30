@@ -1,0 +1,19 @@
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../Lab5 Code Files/lab5_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="U:/CprE288/Lab5/Lab5" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Lab5 Code Files/lab5_template.d_raw" --obj_directory="Lab5 Code Files"  "../Lab5 Code Files/lab5_template.c"
+"../Lab5 Code Files/lab5_template.c", line 44: warning #1696-D: multicharacter character literal (potential portability problem)
+Finished building: "../Lab5 Code Files/lab5_template.c"
+ 
+Building target: "Lab5.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab5.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab5_linkInfo.xml" --rom_model -o "Lab5.out" "./tm4c123gh6pm_startup_ccs.obj" "./Lab5 Code Files/Timer.obj" "./Lab5 Code Files/button.obj" "./Lab5 Code Files/lab5_template.obj" "./Lab5 Code Files/lcd.obj" "./Lab5 Code Files/uart.obj" "../tm4c123gh6pm.cmd" "../Lab5 Code Files/libcybotUART.lib"  -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Lab5.out"
+ 
+
+**** Build Finished ****

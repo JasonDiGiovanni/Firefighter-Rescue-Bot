@@ -1,0 +1,10 @@
+while (sum < distance_mm) {
+        oi_update(sensor_data);
+        if(sensor_data -> cliffFrontLeftSignal > 2600 || sensor_data -> cliffFrontRightSignal > 2600 || sensor_data -> cliffLeftSignal>2600 || sensor_data -> cliffRightSignal>2600){//detected the outside of town
+            oi_setWheens(0,0);//we stop
+        }
+        if(sensor_data -> cliffFrontLeftSignal < 500 || sensor_data -> cliffFrontRightSignal < 500 || sensor_data -> cliffLeftSignal < 500 || sensor_data -> cliffRightSignal < 500) {
+            oi_setWheels(0,0);//we stop
+        }
+            return;
+        }

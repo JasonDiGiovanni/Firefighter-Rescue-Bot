@@ -1,0 +1,337 @@
+
+**** Build of configuration Debug for project 9.2 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="//MY.DOCS.IASTATE.EDU/users/jdigi/cpre288/lab9.1/9.2" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+"../lab9_template.c", line 20: warning #179-D: variable "message" was declared but never referenced
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Finished building: "../lab9_template.c"
+ 
+Building file: "../Timer.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="//MY.DOCS.IASTATE.EDU/users/jdigi/cpre288/lab9.1/9.2" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Timer.d_raw"  "../Timer.c"
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Finished building: "../Timer.c"
+ 
+Building file: "../lcd.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="//MY.DOCS.IASTATE.EDU/users/jdigi/cpre288/lab9.1/9.2" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lcd.d_raw"  "../lcd.c"
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Finished building: "../lcd.c"
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="//MY.DOCS.IASTATE.EDU/users/jdigi/cpre288/lab9.1/9.2" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Finished building: "../ping.c"
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="//MY.DOCS.IASTATE.EDU/users/jdigi/cpre288/lab9.1/9.2" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building target: "9.2.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"9.2.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="9.2_linkInfo.xml" --rom_model -o "9.2.out" "./Timer.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" -llibc.a 
+<Linking>
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Finished building target: "9.2.out"
+ 
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 9.2 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="//MY.DOCS.IASTATE.EDU/users/jdigi/cpre288/lab9.1/9.2" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'ping.obj' failed
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+"../ping.c", line 120: error #20: identifier "width" is undefined
+"../ping.c", line 125: error #20: identifier "width" is undefined
+2 errors detected in the compilation of "../ping.c".
+gmake: *** [ping.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 9.2 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="//MY.DOCS.IASTATE.EDU/users/jdigi/cpre288/lab9.1/9.2" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Finished building: "../ping.c"
+ 
+Building target: "9.2.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"9.2.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="9.2_linkInfo.xml" --rom_model -o "9.2.out" "./Timer.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" -llibc.a 
+<Linking>
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Finished building target: "9.2.out"
+ 
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 9.2 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="//MY.DOCS.IASTATE.EDU/users/jdigi/cpre288/lab9.1/9.2" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+"../lab9_template.c", line 20: warning #179-D: variable "message" was declared but never referenced
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Finished building: "../lab9_template.c"
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="//MY.DOCS.IASTATE.EDU/users/jdigi/cpre288/lab9.1/9.2" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Finished building: "../ping.c"
+ 
+Building target: "9.2.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"9.2.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="9.2_linkInfo.xml" --rom_model -o "9.2.out" "./Timer.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" -llibc.a 
+<Linking>
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Finished building target: "9.2.out"
+ 
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 9.2 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: '9.2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 9.2 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: '9.2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 9.2 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="//MY.DOCS.IASTATE.EDU/users/jdigi/cpre288/lab9.1/9.2" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Finished building: "../ping.c"
+ 
+Building target: "9.2.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"9.2.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="9.2_linkInfo.xml" --rom_model -o "9.2.out" "./Timer.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" -llibc.a 
+<Linking>
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Finished building target: "9.2.out"
+ 
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 9.2 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="//MY.DOCS.IASTATE.EDU/users/jdigi/cpre288/lab9.1/9.2" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Finished building: "../ping.c"
+ 
+Building target: "9.2.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"9.2.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="9.2_linkInfo.xml" --rom_model -o "9.2.out" "./Timer.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" -llibc.a 
+<Linking>
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Finished building target: "9.2.out"
+ 
+\\MY.DOCS.IASTATE.EDU\users\jdigi\cpre288\lab9.1\9.2\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+
+**** Build Finished ****

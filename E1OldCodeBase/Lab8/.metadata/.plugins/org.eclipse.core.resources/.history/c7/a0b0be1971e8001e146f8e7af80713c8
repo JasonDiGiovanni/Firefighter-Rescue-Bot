@@ -1,0 +1,20 @@
+/*
+ * adc.cpp
+ *
+ *  Created on: Mar 22, 2024
+ *      Author: jdigi
+ */
+
+#include <adc.h>
+
+adc::adc()
+{
+    // TODO Auto-generated constructor stub
+
+}
+
+adc::~adc()
+{
+    // TODO Auto-generated destructor stub
+}
+
